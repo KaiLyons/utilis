@@ -10,9 +10,23 @@
 
     <link rel="stylesheet" href="/style.css">
     
-    <script src="/client.js" defer></script>
+    <script src="/index.js" defer></script>
   </head>
-  <body class="dark">
-   <script>window.location="views/index.html"</script>
+  <body class="dark" id="body">
+    <header>
+      <h1><!--
+        <button class="button" id="p" onclick="window.location='unknown'">
+          Unknown
+        </button>
+          -->
+        Utilis
+      </h1>
+    </header>
+    <main>
+      <p>
+        Saving to: <u><span title="File saving under construction!">Cookies</span></u>
+      </p>
+      <textarea id="note" onchange="save();" cols="120" rows="24"></textarea><br><button onclick="manualsave();" id="save">Save</button>
+    </main>
   </body>
 </html>
