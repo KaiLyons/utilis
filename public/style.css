@@ -1,0 +1,91 @@
+@font-face{
+  font-family: "PS";
+  src: url("https://cdn.glitch.com/25a54b01-dfde-4bc9-bd7a-90997e3ed953%2FProductSans-Bold.woff?v=1568139830087");
+}
+
+body{
+  font-family:"PS";
+  margin:5%;
+  text-align:center;
+}
+
+.dark{
+  background-color:#302b33;
+  color:white;
+}
+
+a{
+  color:#20e655;
+}
+
+input,button,textarea{
+  border:none;
+  padding-left:2%;
+  padding-right:2%;
+  padding-top:1%;
+  padding-bottom:1%;
+  background-color:#20e655;
+  border-radius:5px;
+  color:white;
+  font-weight:bold;
+  font-family:"PS";
+}
+
+textarea{
+  padding-top:2%;
+  padding-bottom:2%;
+  font-family:monospace;
+  resize:none;
+  color:black;
+  outline: none;
+}
+
+.button{
+  position:absolute;
+  right:1%;
+  top:1%;
+}
+
+table{
+  width:100%;
+  empty-cells: hide;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding:0px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  color:black;
+}
+
+tr:nth-child(odd) {
+  background-color: #0f0f0f;
+  color:white;
+}
+
+th {
+  border:1px solid #20e655;
+  background-color:#20e655;
+  color:black;
+  text-align: center;
+  padding: 8px;
+}
+
+.fill{
+  background-color:transparent;
+  border-radius:0px;
+  margin:0px;
+  margin-top:4px;
+}
+
+.fill2{
+  background-color:transparent;
+  border-radius:0px;
+  color:white;
+  margin-top:4px;
+}
+
